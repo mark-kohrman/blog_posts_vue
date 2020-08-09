@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Test from '../views/Test.vue'
 import Signup from '../views/Signup.vue';
+import PostsIndex from '../views/PostsIndex.vue';
 
 Vue.use(VueRouter)
 
@@ -29,6 +30,12 @@ const routes = [
     path: "/signup",
     name: "signup",
     component: Signup
+  },
+
+  {
+    path: "/posts",
+    name: "PostsIndex",
+    component: PostsIndex
   }
 
 ];
