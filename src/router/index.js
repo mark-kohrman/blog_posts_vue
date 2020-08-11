@@ -54,7 +54,7 @@ const routes = [
     path: "/posts/:id/edit",
     name: "PostsEdit",
     component: PostsEdit
-  }
+  },
 
 
 ];
