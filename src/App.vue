@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
@@ -41,6 +42,7 @@
     </form>
   </div>
 </nav>
+
     <router-view/>
   </div>
 </template>
@@ -48,5 +50,6 @@
 <style>
 #app {
   font-family: Baskerville;
+  background-image: url("https://s3.amazonaws.com/noupe/2009/10/the-inspiration-gallery-2.jpg");
 }
 </style>

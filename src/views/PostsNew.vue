@@ -12,6 +12,7 @@
       <div class="form-group">
         <label>Body:</label>
         <input type="text" class="form-control" v-model="body">
+        <small v-if="body.length <= 100">You have {{ 100 - body.length }} chararcters remaining"</small>
       </div>
       <div class="form-group">
         <label>Image:</label>
